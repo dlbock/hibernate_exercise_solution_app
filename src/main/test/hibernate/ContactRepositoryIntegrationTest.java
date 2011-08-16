@@ -9,10 +9,11 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class ContactRepositoryIntegrationTest {
-    private ContactRepository contactRepository = new ContactRepository();
+    private ContactRepository contactRepository;
 
     @Before
     public void cleanRepository() {
+        contactRepository = new ContactRepository();
         contactRepository.clean();            
     }
 

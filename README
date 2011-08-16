@@ -3,7 +3,7 @@ Hi everyone,
 For tomorrow's ORM session, please have your computer set up as follows. Note that there are a few elements that you have to pull together to have your system ready to go, so just make sure that you follow each item carefully. If anything isn't clear let me know as soon as possible.
 
 1. Download the code
-https://github.com/dlbock/hibernate_exercise_app
+git clone git://github.com/dlbock/hibernate_exercise_solution_app.git
 
 2. Download HSQLDB version 2.2.4 to somewhere you can get to easily
 http://sourceforge.net/projects/hsqldb/files/hsqldb/hsqldb_2_2/hsqldb-2.2.4.zip/download
