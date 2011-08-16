@@ -33,5 +33,9 @@ CREATE TABLE cars
 name varchar(50),
 numberPlate varchar(50));
 
+CREATE TABLE contacts
+(id identity,
+firstName varchar(50),
+lastName varchar(50));
 
-4. Run the CarRepositoryIntegrationTest and make sure that it passes.
+4. Run the CarRepositoryIntegrationTest and the ContactRepositoryIntegrationTest and make sure that they both pass.
