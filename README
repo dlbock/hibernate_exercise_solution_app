@@ -4,13 +4,14 @@ Please have your computer set up as follows. Note that there are a few elements 
 1. Download the code
 git clone git://github.com/dlbock/hibernate_exercise_solution_app.git
 
-2. Download HSQLDB version 2.2.4 to somewhere you can get to easily
+2. Create a new IntelliJ project and import the existing *.iml module file.
+
+3. Download HSQLDB version 2.2.4 to somewhere you can get to easily
 http://sourceforge.net/projects/hsqldb/files/hsqldb/hsqldb_2_2/hsqldb-2.2.4.zip/download
 
 Read up on HSQLDB to familiarize yourself with what it is. 
 
-
-3. Set up your local database. There are 2 things you need to run to get the database up and running:
+4. Set up your local database. There are 2 things you need to run to get the database up and running:
 a. First you need to start your database server. In the directory that HSQLDB lives,
 Mac/Linux users:
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server
@@ -37,4 +38,4 @@ CREATE TABLE contacts
 firstName varchar(50),
 lastName varchar(50));
 
-4. Run the CarRepositoryIntegrationTest and the ContactRepositoryIntegrationTest and make sure that they both pass.
+5. Run the CarRepositoryIntegrationTest and the ContactRepositoryIntegrationTest and make sure that they both pass.
