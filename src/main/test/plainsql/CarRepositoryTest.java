@@ -28,7 +28,7 @@ public class CarRepositoryTest {
     }
 
     private void insertToRepository(Car car) throws SQLException {
-        String sqlStatement = "INSERT INTO cars(name,number_plate) VALUES('%s', '%s')";
+        String sqlStatement = "INSERT INTO cars(name,numberPlate) VALUES('%s', '%s')";
         repository.update(String.format(sqlStatement, car.getName(), car.getNumberPlate()));
     }
 }
