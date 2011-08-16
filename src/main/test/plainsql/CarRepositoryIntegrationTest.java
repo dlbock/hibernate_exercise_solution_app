@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 import static org.junit.Assert.assertEquals;
 
-public class CarRepositoryTest {
+public class CarRepositoryIntegrationTest {
 
     private CarRepository repository;
 

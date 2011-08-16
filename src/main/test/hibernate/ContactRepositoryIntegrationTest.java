@@ -8,7 +8,7 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class ContactRepositoryTest {
+public class ContactRepositoryIntegrationTest {
     private ContactRepository contactRepository = new ContactRepository();
 
     @Before
