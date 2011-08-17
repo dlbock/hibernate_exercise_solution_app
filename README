@@ -16,14 +16,14 @@ a. First you need to start your database server. In the directory that HSQLDB li
 Mac/Linux users:
 java -classpath lib/hsqldb.jar org.hsqldb.server.Server
 
-Windows users, run the lib/runServer.bat file.
+Windows users, run the bin/runServer.bat file.
 
 b. HSQLDB comes with a Java Swing interface for you to type SQL scripts in (i.e. create tables, drop tables, etc), to start that up,
 
 Mac/Linux users:
 java -classpath lib/hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
 
-Windows users, run lib/runManagerSwing.bat.
+Windows users, run bin/runManagerSwing.bat.
 
 To get into the database to be able to type out your SQL scripts, use: jdbc:hsqldb:hsql://localhost for the URL then hit OK.
 
